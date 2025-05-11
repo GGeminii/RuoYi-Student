@@ -82,7 +82,7 @@ public class SsDormitoryInformationController extends BaseController
     @PostMapping
     public AjaxResult add(@RequestBody SsDormitoryInformation ssDormitoryInformation)
     {
-        SysUser sysUser=userService.selectUserByNickName(String.valueOf(ssDormitoryInformation.getUserId()));
+        SysUser sysUser=userService.selectUserByNickName(String.valueOf(ssDormitoryInformation.getStudentName()));
         ssDormitoryInformation.setUserId(sysUser.getUserId());
         return toAjax(ssDormitoryInformationService.insertSsDormitoryInformation(ssDormitoryInformation));
     }

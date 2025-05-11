@@ -13,7 +13,7 @@
         <ul class="list-unstyled">
           <li class="link-type">
             <router-link to="/">
-              回学生信息管理系统
+              回宿舍信息管理系统
             </router-link>
           </li>
         </ul>

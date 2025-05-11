@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">学生信息管理系统</h3>
+      <h3 class="title">宿舍信息管理系统</h3>
       <el-form-item prop="username">
         <el-input
           v-model="loginForm.username"
@@ -56,7 +56,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>学生信息管理系统</span>
+      <span>宿舍信息管理系统</span>
     </div>
   </div>
 </template>

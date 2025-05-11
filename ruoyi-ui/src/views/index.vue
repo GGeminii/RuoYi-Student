@@ -1,6 +1,6 @@
 <template>
   <div class="divs" >
-    欢迎来到学生信息管理系统
+    欢迎来到宿舍信息管理系统
   </div>
 </template>
 
